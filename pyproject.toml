@@ -17,15 +17,17 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 requires-python = ">=3.7"
-dependencies = [
-]
+dependencies = []
 
 [project.urls]
-"Homepage" = "https://github.com/heron4gf/prompts-engine"
+Homepage = "https://github.com/heron4gf/prompts-engine"
 "Bug Tracker" = "https://github.com/heron4gf/prompts-engine/issues"
 
 [tool.setuptools]
 packages = ["prompts_engine"]
+
+[tool.setuptools.package-data]
+prompts_engine = ["py.typed"]
 
 [tool.black]
 line-length = 100
