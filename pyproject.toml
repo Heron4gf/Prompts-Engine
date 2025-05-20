@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompts-engine"
+version = "0.1.0"
+description = "A powerful and flexible Python library for generating well-structured prompts for Large Language Models (LLMs)"
+readme = "README.md"
+authors = [
+    {name = "Heron4gf", email = "heron@giambuzzi.it"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://github.com/heron4gf/prompts-engine"
+"Bug Tracker" = "https://github.com/heron4gf/prompts-engine/issues"
+
+[tool.setuptools]
+packages = ["prompts_engine"]
+
+[tool.black]
+line-length = 100
+target-version = ["py37"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.7"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
