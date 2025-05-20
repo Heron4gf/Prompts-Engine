@@ -1,3 +1,5 @@
+![Prompts Engine](logo.png)
+
 # Prompts Engine
 
 A powerful and flexible Python library for generating well-structured prompts for Large Language Models (LLMs). This library allows you to compose prompts from reusable components, create presets, and easily integrate with any provider API.
