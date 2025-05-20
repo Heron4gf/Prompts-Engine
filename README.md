@@ -1,5 +1,12 @@
 ![Prompts Engine](logo.png)
 
+<p align="center">
+	<img src="https://img.shields.io/github/license/Heron4gf/Prompts-Engine?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/Heron4gf/Prompts-Engine?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/Heron4gf/Prompts-Engine?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/Heron4gf/Prompts-Engine?style=default&color=0080ff" alt="repo-language-count">
+</p>
+
 # Prompts Engine
 
 A powerful and flexible Python library for generating well-structured prompts for Large Language Models (LLMs). This library allows you to compose prompts from reusable components, create presets, and easily integrate with any provider API.
