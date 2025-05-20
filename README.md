@@ -19,11 +19,6 @@ cd Prompts-Engine
 pip install -e .
 ```
 
-```bash
-# Pip installation
-pip install prompts-engine
-```
-
 ## Quick Start
 
 ```python
